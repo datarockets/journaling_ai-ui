@@ -1,12 +1,9 @@
 <script>
-  import { Alert } from 'flowbite-svelte';
-  import {Button} from 'flowbite-svelte';
+	import { Alert } from 'flowbite-svelte';
+	import Box from '@/components/Box.svelte';
 </script>
 
-<div class="p-8">
-  <Alert>
-    <span class="font-medium">Info alert!</span>
-    Change a few things up and try submitting again.
-  </Alert>
-  <Button>Default</Button>
-</div>
+<Alert>
+	<span class="font-medium">Info alert!</span>
+	Change a few things up and try submitting again.
+</Alert>
