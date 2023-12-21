@@ -47,7 +47,7 @@
 				<HomeSolid class="me-2 h-3 w-3" />
 				Home
 			</Button>
-			<Button>
+			<Button href="/journal">
 				<CalendarMonthSolid class="me-2 h-3 w-3" />
 				Journal
 			</Button>
