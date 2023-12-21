@@ -10,10 +10,10 @@
 </script>
 
 <div class="flex flex-col justify-between relative h-full grow">
-	<div class="pointer-events-none">
+	<div class="pointer-events-none p-8">
 		<img
 			class="w-full"
-			src="/icons/writing-hand.png"
+			src="/icons/empty-books.png"
 		 	alt="A hand writing in a journal."
 		/>
 	</div>

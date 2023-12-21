@@ -1,15 +1,14 @@
-<script>
-	import { Alert } from 'flowbite-svelte';
+<script lang="ts">
 	import Filled from './Home/Filled.svelte'
 	import Empty from './Home/Empty.svelte'
 
-	export const data = {};
+	export let data;
 
-	$: isEmpty = !data.hasPosts
+	$: isEmpty = !data || !data.hasPosts
 </script>
 
 {#if isEmpty}
 	<Empty />
 {:else}
-	<Filled />
+	<Filled notifications={data?.notifications || []} />
 {/if}

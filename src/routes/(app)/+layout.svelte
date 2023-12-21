@@ -34,7 +34,7 @@
 	<main class="flex grow flex-col px-4 py-5">
 		<slot />
 	</main>
-	<Footer>
+	<Footer class="sticky bottom-0">
 		<ButtonGroup class="flex justify-center py-5">
 			<Button>
 				<HomeSolid class="me-2 h-3 w-3" />
