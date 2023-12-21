@@ -19,7 +19,7 @@ const notifications: ReadonlyArray<Notification> = [
 
 export function load() {
 	return {
-		hasPosts: false,
+		hasPosts: true,
 		notifications,
 	}
 }

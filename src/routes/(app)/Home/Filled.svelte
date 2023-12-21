@@ -1,13 +1,11 @@
 <script>
 	import { Button } from 'flowbite-svelte';
 	import Summary from '$lib/components/Summary.svelte';
+	import dayjs from 'dayjs';
 
 	export let notifications;
 
-	function openNote() {
-		// TODO: Add redirect to Journal Entry page after it's ready
-		alert('Coming soon')
-	}
+	$: noteLink = `/entry/${dayjs().format('YYYY-MM-DD')}`
 </script>
 
 <div class="flex flex-col grow-1 relative pb-12">
@@ -17,8 +15,8 @@
 		{/each}
 	</div>
 
-	<div class="fixed bottom-12 left-4 right-4">
-		<Button class="uppercase w-full" on:click={openNote}>
+	<div class="fixed bottom-20 left-4 right-4">
+		<Button class="uppercase w-full" href={noteLink}>
 			Todays Note
 		</Button>
 	</div>
