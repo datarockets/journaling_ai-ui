@@ -1,6 +1,5 @@
 <script>
 	import { Alert } from 'flowbite-svelte';
-	import Box from '@/components/Box.svelte';
 </script>
 
 <Alert>
