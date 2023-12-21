@@ -39,7 +39,7 @@
 			</Dropdown>
 		{/if}
 	</header>
-	<main class="grow py-5 px-4">
+	<main class="grow py-5 px-4 flex flex-col">
 		<slot />
 	</main>
 	<Footer>
