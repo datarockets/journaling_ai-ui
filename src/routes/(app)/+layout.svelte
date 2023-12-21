@@ -15,7 +15,7 @@
 		ArrowLeftOutline,
 		DotsVerticalOutline
 	} from 'flowbite-svelte-icons';
-	import '../app.pcss';
+	import '../../app.pcss';
 </script>
 
 <div class="flex min-h-screen flex-col p-5">
