@@ -6,7 +6,7 @@
 	export let title;
 </script>
 
-<div class="border border-4 rounded-lg flex p-4 gap-4">
+<div class="border border-4 rounded-lg flex p-4 gap-4 w-full justify-between">
 	<div>
 		<p class="text-sm uppercase">{type}</p>
 		<Heading tag="h5">{title}</Heading>

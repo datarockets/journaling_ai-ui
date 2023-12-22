@@ -5,10 +5,11 @@
 	export let data;
 
 	$: isEmpty = !data || !data.hasPosts
+	$: moodData = data?.moodData || []
 </script>
 
 {#if isEmpty}
 	<Empty />
 {:else}
-	<Filled notifications={data?.notifications || []} />
+	<Filled notifications={data?.notifications || []} moodData={moodData} />
 {/if}
